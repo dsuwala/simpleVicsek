@@ -1,0 +1,74 @@
+
+# MIT License                                                                       
+# Copyright (c) 2020 Dr. Daniel Alejandro Matoz Fernandez                           
+#                    Dr. Rastko Sknepnek, University of Dundee                      
+
+#cuda
+*.i
+*.ii
+*.gpu
+*.ptx
+*.cubin
+*.fatbin
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# vscode
+.vscode/
+activesolver/cppmodule/.vscode
+activesolver/cppmodule/src/.vscode
+
+# vscode
+.history/
+
+# python
+__pycache__/
+*.pyc
+
+# vtk
+*.vtk
+*.vtp
+*.vtu
+
+# build
+activesolver/cppmodule/build/*
+activesolver/cppmodule/build/!*/
+
+# exception to the rule
+!activesolver/cppmodule/build/.gitkeep 
+
+
+#ipython
+*.ipynb_checkpoints
+
+build/
